@@ -12,7 +12,7 @@ done
 
 echo "The following command has been set: ${COMMAND}"
 
-./sandbox ${COMMAND}
+./sandbox ${COMMAND} testnet
 
 
 echo ::set-output name=command-executed::$COMMAND
