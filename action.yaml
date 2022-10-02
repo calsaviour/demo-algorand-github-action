@@ -6,9 +6,6 @@ inputs:
     description: Algorand Sandbox Command (up, down)
     required: true
     default: up
-outputs:
-  command-executed:
-    description: Algorand sandbox command run
 runs:
   using: node12
   main: action/index.js
