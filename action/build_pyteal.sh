@@ -12,7 +12,6 @@ done
 
 echo "The following command has been set: ${COMMAND}"
 
-./sandbox ${COMMAND} testnet
-./sandbox -v
+./sandbox ${COMMAND} testnet -v
 
 exit 0
