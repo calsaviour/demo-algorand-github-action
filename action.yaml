@@ -1,0 +1,14 @@
+---
+name: Increment Git Tag
+description: Increments git tag based on the provided version type
+inputs:
+  command:
+    description: Algorand Sandbox Command (up, down)
+    required: true
+    default: up
+outputs:
+  command-executed:
+    description: Algorand sandbox command run
+runs:
+  using: node12
+  main: action/index.js
